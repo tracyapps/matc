@@ -1,0 +1,140 @@
+body {
+  font-family: 'Gudea', sans-serif; }
+
+header {
+  height: 130px;
+  overflow: visible;
+  display: block;
+  background: url("../../img/header-idea2.jpg") 0px 0px no-repeat;
+  margin-bottom: -20px;
+  margin-top: -14px; }
+  header.container {
+    margin-left: 10px; }
+
+.track-container {
+  width: 210px;
+  padding: 15px 1px;
+  margin-bottom: 20px; }
+  .track-container.option_one {
+    background: #26b1c1; }
+  .track-container.option_two {
+    background: #f1bd4d; }
+  .track-container.option_three {
+    background: #7cd660; }
+  .track-container.option_four {
+    background: #e56c6c; }
+  .track-container.option_five {
+    background: #5573ca; }
+  .track-container.option_six {
+    background: #875ad9; }
+  .track-container .btn {
+    padding: 1.5em 10px;
+    white-space: normal;
+    line-height: 1em;
+    font-weight: normal; }
+
+.milestone-title {
+  background: rgba(47, 47, 47, 0.9);
+  color: #fff;
+  font-weight: normal;
+  padding: 5px;
+  text-align: center;
+  width: 220px; }
+  .milestone-title h3 {
+    margin: 0;
+    font-size: 1.3em; }
+  .milestone-title a {
+    color: rgba(255, 255, 255, 0.8); }
+    .milestone-title a:hover {
+      color: #fffac6; }
+  .milestone-title .glyphicon {
+    font-size: 13px;
+    margin: 3px 5px 0 -12px;
+    float: right; }
+
+.box {
+  background: #fff;
+  color: #2f2f2f;
+  display: block;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+  margin-bottom: 10px;
+  width: 200px;
+  overflow: hidden;
+  height: 30px;
+  transition: background 500ms ease-in-out; }
+  .box a {
+    color: #2f2f2f; }
+  .box .box-header .marker-container.col-xs-2 {
+    margin: 0;
+    padding: 2px; }
+    .box .box-header .marker-container.col-xs-2 .marker {
+      margin: 1px; }
+  .box .box-header .title-container {
+    margin: 0;
+    padding: 0; }
+    .box .box-header .title-container .destination-title {
+      font-size: 1.1em;
+      display: block;
+      text-align: center;
+      margin: 5px 0;
+      font-weight: normal; }
+  .box .box-header .favorite {
+    padding: 3px 5px;
+    margin: 0;
+    text-align: right; }
+  .box .box-body .destination-code {
+    font-size: 1.2em;
+    display: block;
+    text-align: center;
+    margin: 0 3px;
+    font-weight: normal; }
+  .box .box-body .destination-description {
+    padding: 2px 5px; }
+  .box .box-footer a.btn.btn-block {
+    max-width: 100%;
+    white-space: normal;
+    line-height: 1em;
+    padding: 5px; }
+  .box .box-footer a.btn.btn-default {
+    background: rgba(255, 255, 255, 0.3); }
+  .box .box-footer .glyphicon-new-window {
+    font-size: 8px;
+    margin: 2px 0 0 3px; }
+  .box:hover {
+    background: #fffac6;
+    border: 1px solid rgba(0, 0, 0, 0.4); }
+    .box:hover .box-header .title-container .destination-title {
+      font-weight: 700; }
+
+.marker {
+  display: block;
+  width: 11px;
+  height: 11px;
+  float: left;
+  border-radius: 50%;
+  margin: 1px; }
+  .marker.option_one {
+    background: #26b1c1; }
+  .marker.option_two {
+    background: #f1bd4d; }
+  .marker.option_three {
+    background: #7cd660; }
+  .marker.option_four {
+    background: #e56c6c; }
+  .marker.option_five {
+    background: #5573ca; }
+  .marker.option_six {
+    background: #875ad9; }
+
+footer {
+  width: 100%;
+  min-height: 100px;
+  margin-top: 30px;
+  background: #2f2f2f;
+  color: rgba(255, 255, 255, 0.8); }
+  footer .container {
+    padding: 20px 0;
+    text-align: right; }
+
+/*# sourceMappingURL=style.css.map */
