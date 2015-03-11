@@ -1,0 +1,200 @@
+$color1: #26b1c1;
+$color2: #f1bd4d;
+$color3: #7cd660;
+$color4: #e56c6c;
+$color5: #5573ca;
+$color6: #875ad9;
+
+$textcolor: #2f2f2f;
+$hover-bg: #fffac6;
+
+body {
+	font-family: 'Gudea', sans-serif;
+}
+header {
+	height: 130px;
+	overflow: visible;
+	display: block;
+	background: url('../../img/header-idea2.jpg') 0px 0px no-repeat;
+	margin-bottom: -20px;
+	margin-top: -14px;
+	&.container {
+		margin-left: 10px;
+	}
+
+}
+.track-container {
+	width: 210px;
+	padding: 15px 1px;
+	margin-bottom: 20px;
+
+	&.option_one {
+		background: $color1;
+	}
+	&.option_two {
+		background: $color2;
+	}
+	&.option_three {
+		background: $color3;
+	}
+	&.option_four {
+		background: $color4;
+	}
+	&.option_five {
+		background: $color5;
+	}
+	&.option_six {
+		background: $color6;
+	}
+
+	.btn {
+		padding: 1.5em 10px;
+		white-space: normal;
+		line-height: 1em;
+		font-weight: normal;
+	}
+}
+
+.milestone-title {
+	background: transparentize( $textcolor, 0.1 );
+	color: #fff;
+	font-weight: normal;
+	padding: 5px;
+	text-align: center;
+	width: 220px;
+	h3 {
+		margin: 0;
+		font-size: 1.3em;
+	}
+	a {
+		color: rgba( 255, 255, 255, 0.8 );
+		&:hover {
+			color: $hover-bg;
+		}
+	}
+	.glyphicon {
+		font-size: 13px;
+		margin: 3px 5px 0 -12px;
+		float: right;
+	}
+}
+
+.box {
+	background: #fff;
+	color: $textcolor;
+	display: block;
+	border: 1px solid rgba( 0, 0, 0, 0.2 );
+	border-radius: 3px;
+	margin-bottom: 10px;
+	width: 200px;
+	overflow: hidden;
+	height: 30px;
+	transition: background 500ms ease-in-out;
+
+	a {
+		color: $textcolor;
+	}
+	.box-header {
+		.marker-container {
+			&.col-xs-2 {
+				margin: 0;
+				padding: 2px;
+				.marker {
+					margin: 1px;
+				}
+			}
+		}
+		.title-container {
+			margin: 0;
+			padding: 0;
+			.destination-title {
+				font-size: 1.1em;
+				display: block;
+				text-align: center;
+				margin: 5px 0;
+				font-weight: normal;
+			}
+		}
+		.favorite {
+			padding: 3px 5px;
+			margin: 0;
+			text-align: right;
+		}
+	}
+	.box-body {
+		.destination-code {
+			font-size: 1.2em;
+			display: block;
+			text-align: center;
+			margin: 0 3px;
+			font-weight: normal;
+		}
+		.destination-description {
+			padding:2px 5px;
+		}
+	}
+	.box-footer {
+		a.btn {
+			&.btn-block {
+				max-width: 100%;
+				white-space: normal;
+				line-height: 1em;
+				padding: 5px;
+			}
+			&.btn-default {
+				background: rgba( 255, 255, 255, 0.3 );
+			}
+		}
+		.glyphicon-new-window {
+			font-size: 8px;
+			margin: 2px 0 0 3px;
+		}
+
+	}
+	&:hover {
+		background: $hover-bg;
+		border: 1px solid rgba( 0, 0, 0, 0.4 );
+		.box-header .title-container .destination-title {
+			font-weight: 700;
+		}
+	}
+}
+.marker {
+	display: block;
+	width: 11px;
+	height: 11px;
+	float: left;
+	border-radius: 50%;
+	margin: 1px;
+
+	&.option_one {
+		background: $color1;
+	}
+	&.option_two {
+		background: $color2;
+	}
+	&.option_three {
+		background: $color3;
+	}
+	&.option_four {
+		background: $color4;
+	}
+	&.option_five {
+		background: $color5;
+	}
+	&.option_six {
+		background: $color6;
+	}
+}
+
+footer {
+	width:100%;
+	min-height: 100px;
+	margin-top: 30px;
+	background: $textcolor;
+	color: rgba( 255, 255, 255, 0.8 );
+	.container {
+		padding: 20px 0;
+		text-align: right;
+	}
+}
